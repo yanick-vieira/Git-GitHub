@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GitHub</title>
     <style>
-        h1{
+        div{
             text-align: center;
             position: relative;
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -19,10 +19,10 @@
             top: 100px;
             border-radius: 50%;
             padding-top: 50px;
-            transition: 1s;
+            transition: .5s;
            
         }
-        h1:hover{
+        div:hover{
             background-color: aqua;
             pointer-events:painted; 
             box-shadow: 2px 2px 8px rgb(18, 87, 87);
@@ -32,13 +32,21 @@
             width: 170px;
             height: 170px;
        }
-       h1:active{
+       div:active{
         background-color:#000;
         color: aqua;
+       }
+       p{
+        margin-top: 0px;
        }
     </style>
 </head>
 <body>
-    <h1>Hello Git</h1>
+    <div>
+        <p>Git</p>
+        <p>GitHub</p>
+    </div>
+        
+
 </body>
 </html>
