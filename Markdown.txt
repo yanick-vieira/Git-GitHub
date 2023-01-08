@@ -1,0 +1,34 @@
+_Italic_
+
+#Title n1
+---hr
+
+##Title n2
+***hr
+
+###Title n3
+
+~~Delete~~
+
+*Italic*
+
+**Bold**
+
+_*Bold  and Italic*_
+
+Ol:
+1. list 1
+2. list 2
+3. list 3
+
+ul:
+* list 
+* list 
+* list 
+- list 
+- list 
+- list
+
+chore list:
+- [] undone chore
+- [] done chore
