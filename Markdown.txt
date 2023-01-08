@@ -32,3 +32,8 @@ ul:
 chore list:
 - [] undone chore
 - [] done chore
+
+Table:
+Num | Name | Age 
+---|---|---
+1 | Yok | 25
