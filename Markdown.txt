@@ -37,3 +37,5 @@ Table:
 Num | Name | Age 
 ---|---|---
 1 | Yok | 25
+
+
