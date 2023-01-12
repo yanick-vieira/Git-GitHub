@@ -8,7 +8,6 @@
 body{
     margin: auto;
     width:1000px;
-    background-color: #00000023;
 }
 
 header{
@@ -62,7 +61,7 @@ i{
 }
 main{
     position: relative;
-    height: 1000px;
+    height: 1300px;
 }
 span{
     font-size: 14px;
@@ -201,14 +200,126 @@ input:active{
     background-color: #fff;
 }
 
+.logofix{
+    position: absolute;
+    top: 880px;
+    left: 42%;
+}
 
-
-//continue...
-
+.manage{
+    position: absolute;
+    top: 150px;
+}
+.e-mail{
+    
+    background-color: #00b3ff;
+    border-radius: 5px;
+    padding: 10px;
+    padding-bottom: 16px;
+    width: 250px;
+    text-align: center;
+    margin-left: -40px;
+    
+}
+#e_mail{
+    text-decoration: none;color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+#msm{
+    position: relative;
+    top: 5px;
+    left: -4px;
+    visibility: visible;
+    transition-duration: 0.5s;
+}
+.e-mail:active{
+    background-color: #00b3ff;
+    box-shadow: inset 2px 2px 8px rgba(0, 0, 0, 0.549);
+    border-radius: 5px;
+    padding: 10px;
+    padding-bottom: 16px;
+    width: 245px;
+    text-align: center;
+    margin-left: -40px;
+}
+.e-mail:active > #msm{
+    top: 10px;
+    visibility: hidden;
+}
+.social_media{
+    position: relative;
+    top: 15px;
+    left: -69px;
+}
+.fix {
+    margin-left: 40px;
+}
 
 
 
 
 footer{
-    background-color: rgba(0, 0, 255, 0.327);
+    position: relative;
+    bottom: 0;
+}
+
+.legais{
+    position: absolute;
+    left: -15px;
+    width: 700px;
+}
+hr{
+    width: 780px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+#nada{
+    visibility: hidden;
+}
+.leis{
+    margin-left: 20px;
+    text-decoration: none;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.leis:hover{
+    text-decoration: underline;
+}
+.leis:active{
+    color:#009bde;
+}
+
+
+
+
+.place{
+    position: relative;
+    right: -430px;
+    top: -78px;
+
+}
+.location{
+    width: 220px;
+    height: 130px;
+    position: relative;
+    overflow:hidden;
+}
+
+.mapa{
+    position: absolute;
+    bottom: 20px;
+    left: 33%;
+    background-color: #00000042;
+    padding: 3px 10px;
+
+}
+.mapa:active{
+    background-color: red;
+}
+#mapa{
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
 }
