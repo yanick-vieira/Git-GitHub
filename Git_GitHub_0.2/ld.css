@@ -51,13 +51,22 @@ h2{
     text-decoration: none;
     font-weight: 600;
     position: absolute;
-    left: 35%;
-    top: 70%;
+    left: 32%;
+    top: 82%;
+    background-color: rgb(255, 228, 196);
+    padding: 15px 20px;
+    border-radius: 10px;
+    opacity: .5;
+    transition: .3s;
+
     
+}
+.baixar:hover{
+    opacity: 1;
 }
 .casa{
     text-align: center;
-    margin-top: -450px;
+    margin-top: -470px;
 }
 .home{
     text-decoration: none;
@@ -74,5 +83,10 @@ h2{
     left: 23%;
 }
 .pg2{
-    background-image: url();
+
+    background-image: url(lp.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    border: 10px groove antiquewhite;
 }
