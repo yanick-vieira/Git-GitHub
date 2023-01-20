@@ -3,8 +3,8 @@ body{
     background-color: rgb(11, 91, 107);
 }
 div{
-    width: 400px;
-    height: 440px;
+    width: 600px;
+    height: 600px;
     margin: auto;
     position: relative;
     top: 200px;
@@ -23,10 +23,19 @@ p{
     background-color: bisque;
     padding:5px;
     text-align: center;
+    width: 400px;
+    margin: auto;
 }
-
+.lista{
+    text-align: center;
+   margin-top: 40px;
+}
 ol{
     background-color: rgba(14, 157, 240, 0.568);
     padding: 5px;
-    text-align: center;
+    text-align: justify;
+    width: 200px;
+    margin: auto;
+    position: relative;
+    top: 10px;
 }
