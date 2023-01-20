@@ -13,29 +13,66 @@ div{
 }
 
 h1{
-  text-align: center;
+  text-align: justify;
   background-color: black;
   color: aliceblue;
-  padding: 5px;
+  padding: 10px;
 
 }
-p{
+.frase{
     background-color: bisque;
-    padding:5px;
+    padding:10px;
     text-align: center;
-    width: 400px;
+    width: 500px;
     margin: auto;
+    text-align: justify;
+    border: 1px solid black;
 }
 .lista{
     text-align: center;
-   margin-top: 40px;
+    margin-top: 40px;
+    margin-left: -50px;
 }
 ol{
     background-color: rgba(14, 157, 240, 0.568);
-    padding: 5px;
+    padding: 25px;
     text-align: justify;
     width: 200px;
     margin: auto;
     position: relative;
     top: 10px;
+}
+h2{
+    text-align: center;
+    color: aliceblue;
+}
+.baixar{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    position: absolute;
+    left: 35%;
+    top: 70%;
+    
+}
+.casa{
+    text-align: center;
+    margin-top: -450px;
+}
+.home{
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+.fix{
+    text-decoration: none;
+    color: rgb(12, 12, 112);
+    font-weight: bolder;
+    position: relative;
+    top: 70px;
+    left: 23%;
+}
+.pg2{
+    background-image: url();
 }
